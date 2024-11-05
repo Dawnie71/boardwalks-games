@@ -5,14 +5,23 @@
 :root {
     --primary-font: "Inter", sans-serif;
     --secondary-font: "Macondo", cursive;
-    --primary-color: #416a8e;
+    --primary-color: #3a2620;
+    --secondary-color: #aa9581;
+    --hightlight-color: #416a8e;
+    --highlight-color-light: #7a9fc2;
 }
 
-/* Imported fonts */
+/* Global styles */
 body {
-   font-family: "Inter", sans-serif;
+    font-family: var(--primary-font);
 }
 
-h1 {
-    font-family: "Maconda", cursive;
+h1,
+h2,
+h3, {
+    font-family: var(--primary-color);
+}
+
+.sub-heading-color {
+     color: var(--hightlight-color) ;
 }
