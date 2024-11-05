@@ -1,8 +1,14 @@
 /* inporting google fonts */
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
-/* initial color to check docs are linked */
+/* Css variabls */
+:root {
+    --primary-font: "Inter", sans-serif;
+    --secondary-font: "Macondo", cursive;
+    --primary-color: #416a8e;
+}
+
+/* Imported fonts */
 body {
    font-family: "Inter", sans-serif;
 }
